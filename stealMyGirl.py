@@ -18,15 +18,21 @@ def sing_lyric(lyric, delay, speed):
 
 def sing_song():
     lyrics = [
-        ("Feel more like limbo, hands out my window", 0.09),
-        ("Chasin' that sunset, that's more my tempo", 0.1),
-        ("Yeah, that's more my tempo", 0.1),
-        ("Ooooooh, but this is all that I am", 0.10),
-        ("I only show you the best of me", 0.10),
-        ("The best of meeee", 0.14),
+        ("\n""She's been my queen", 0.07),
+        ("Since we were sixteen", 0.07),
+        ("We want the same things", 0.07),
+        ("We dream the same dreams", 0.07),
+        ("Alright", 0.07),
+        ("Alright", 0.07),
+        ("\n""I got it all", 0.07),
+        ("Cause she is the one", 0.07),
+        ("Her mum calls me love", 0.07),
+        ("Her dad calls me son", 0.07),
+        ("Alright", 0.07),
+        ("Alright", 0.07),
     ]
-    delays = [0.3, 2.4, 9.5, 15.1, 20.2, 25.5]
-    
+    delays = [0.3, 1.7, 3.0, 4.5, 6.0, 9.5, 12.9, 14.1, 15.5, 16.9, 18.4, 21.7]
+
     threads = []
     for i in range(len(lyrics)):
         lyric, speed = lyrics[i]
@@ -39,7 +45,3 @@ def sing_song():
 
 if __name__ == "__main__":
     sing_song()
-
-
-
-
